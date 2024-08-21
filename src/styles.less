@@ -7,3 +7,35 @@
 
 // @primary-color: #1890ff;
 /* You can add global styles to this file, and also import other style files */
+
+.loop(@counter) when (@counter > 0) {
+  .mtn@{counter} {
+    margin-top: @counter * 1px !important;
+  }
+  .mrn@{counter} {
+    margin-right: @counter * 1px !important;
+  }
+  .mbn@{counter} {
+    margin-bottom: @counter * 1px !important;
+  }
+  .mln@{counter} {
+    margin-left: @counter * 1px !important;
+  }
+  .ptn@{counter} {
+    padding-top: @counter * 1px !important;
+  }
+  .prn@{counter} {
+    padding-right: @counter * 1px !important;
+  }
+  .pbn@{counter} {
+    padding-bottom: @counter * 1px !important;
+  }
+  .pln@{counter} {
+    padding-left: @counter * 1px !important;
+  }
+  // 递归调用，减少计数器的值
+  .loop(@counter - 1);
+}
+
+// 启动循环，从200递减到1
+.loop(200);
