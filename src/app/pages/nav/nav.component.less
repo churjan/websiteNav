@@ -1,0 +1,92 @@
+:host {
+  a {
+    color: initial;
+  }
+}
+.page-view {
+  background: #f5f5f5;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .home-view {
+    position: absolute;
+    right: 50px;
+    top: 13px;
+    cursor: pointer;
+  }
+  .home-view {
+    position: absolute;
+    right: 50px;
+    top: 13px;
+    cursor: pointer;
+  }
+  .header-view {
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    .nav-view {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .nav-item {
+        padding: 16px;
+        font-weight: bold;
+        &.active {
+          color: #1e80ff;
+        }
+      }
+    }
+    .toolbar-view {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      .home-icon {
+        padding: 0 16px;
+      }
+    }
+  }
+  .content-view {
+    flex: 1;
+    overflow-x: auto;
+    width: 100%;
+    max-width: 1200px;
+    margin: 16px auto;
+    padding: 0 16px;
+
+    a:visited {
+      color: #999;
+    }
+    .card-view {
+      background: #fff;
+      padding: 8px 16px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      .card-header {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: bold;
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+        border-bottom: 1px solid #f5f5f5;
+      }
+      .card-body {
+        display: flex;
+        flex-wrap: wrap;
+        .card-item {
+          display: flex;
+          align-items: center;
+          margin-right: 16px;
+          margin-left: 16px;
+          font-size: 14px;
+          .card-img {
+            width: 16px;
+            height: 16px;
+          }
+        }
+      }
+    }
+  }
+}

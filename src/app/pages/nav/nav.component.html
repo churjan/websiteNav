@@ -1,0 +1,39 @@
+<div class="page-view">
+  <div class="header-view">
+    <div class="nav-view">
+      <a
+        class="nav-item"
+        [routerLink]="item.urlPath"
+        routerLinkActive="active"
+        *ngFor="let item of navList"
+      >
+        {{ item.title }}
+      </a>
+    </div>
+    <div class="toolbar-view">
+      <a class="home-icon" [routerLink]="['/']">
+        <span nz-icon nzType="home" nzTheme="outline"></span>
+      </a>
+    </div>
+  </div>
+  <div class="content-view">
+    <div class="card-view" *ngFor="let item of websiteList">
+      <div class="card-header">{{ item.title }}</div>
+      <div class="card-body">
+        <a
+          class="card-item"
+          [href]="subItem.url"
+          target="_blank"
+          *ngFor="let subItem of item.subList"
+          [title]="subItem.desc"
+        >
+          <img
+            class="card-img mr5"
+            [src]="subItem.iconUrl || cs.defaultIconUrl"
+          />
+          <span>{{ subItem.title }}</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

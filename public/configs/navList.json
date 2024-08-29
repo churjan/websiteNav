@@ -1,0 +1,34 @@
+{
+  "common": [
+    {
+      "title": "资源",
+      "path": "resources"
+    },
+    {
+      "title": "工具",
+      "path": "tools"
+    },
+    {
+      "title": "教程",
+      "path": "tutorials"
+    }
+  ],
+  "frontend": [
+    {
+      "title": "AI",
+      "path": "ai"
+    },
+    {
+      "title": "文档",
+      "path": "docs"
+    },
+    {
+      "title": "工具",
+      "path": "tools"
+    },
+    {
+      "title": "教程",
+      "path": "tutorials"
+    }
+  ]
+}
