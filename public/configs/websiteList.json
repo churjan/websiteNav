@@ -200,15 +200,26 @@
         ]
       }
     ],
-    "tutorials": [
+    "community": [
       {
-        "title": "综合",
+        "title": "生活指南",
         "subList": [
           {
             "title": "wikiHow",
-            "url": "https://zh.wikihow.com/",
+            "url": "https://zh.wikihow.com",
             "iconUrl": "https://zh.wikihow.com/favicon_round.ico",
             "desc": "wikiHow是一项协作项目，目标是建立世界最大的最高质量的指导手册。无论您想做什么，我们的多语种指导手册都可以为您提供免费的逐步指导。"
+          }
+        ]
+      },
+      {
+        "title": "本地社区",
+        "subList": [
+          {
+            "title": "台州19楼",
+            "url": "https://taizhou.19lou.com",
+            "iconUrl": "https://taizhou.19lou.com/favicon.ico",
+            "desc": "台州 19 楼是台州热门的同城女性婚恋家社区平台，在这里，你可以轻松搞定相亲、结婚、装 修、育儿这几桩人生大事，还可以获得租房、求职、美食、旅游、房产、教育、二手交易等本地生活服务 信息"
           }
         ]
       }
@@ -258,6 +269,12 @@
             "url": "https://yuanbao.tencent.com",
             "iconUrl": "https://cdn-bot.hunyuan.tencent.com/logo.png",
             "desc": "腾讯元宝"
+          },
+          {
+            "title": "豆包",
+            "url": "https://www.doubao.com",
+            "iconUrl": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/logo-icon.png",
+            "desc": "豆包是你的 AI 聊天智能对话问答助手，写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑，提供灵感，辅助创作，也可以和你畅聊任何你感兴趣的话题。"
           },
           {
             "title": "智谱清言",
@@ -594,6 +611,12 @@
             "url": "https://jsonplaceholder.typicode.com",
             "iconUrl": "https://jsonplaceholder.typicode.com/favicon.ico",
             "desc": "Free Fake REST API"
+          },
+          {
+            "title": "Free Public APIs",
+            "url": "https://www.freepublicapis.com",
+            "iconUrl": "https://www.freepublicapis.com/favicon.ico",
+            "desc": "A collection of Free Public APIs for Students and Developers. Tested every single day."
           }
         ]
       }
