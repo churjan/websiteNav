@@ -776,5 +776,20 @@
         ]
       }
     ]
+  },
+  "external-network": {
+    "tools": [
+      {
+        "title": "礼品卡",
+        "subList": [
+          {
+            "title": "Pockyt Shop",
+            "url": "https://shop.pockyt.io",
+            "iconUrl": "https://pockyt.io/app/uploads/2022/01/cropped-pockyt_logo_social_dark_icon-32x32.png",
+            "desc": "苹果商店,亚马逊礼品卡,安全正规,超值折扣,快速发货"
+          }
+        ]
+      }
+    ]
   }
 }
