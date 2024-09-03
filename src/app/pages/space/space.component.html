@@ -1,9 +1,7 @@
 <div class="space-view">
-  <div
-    class="space-item"
-    *ngFor="let item of cs.spaceList"
-    (click)="onJump(item)"
-  >
+  @for(item of cs.spaceList; track $index){
+  <div class="space-item" (click)="onJump(item)">
     {{ item.title }}
   </div>
+  }
 </div>
