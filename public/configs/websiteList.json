@@ -544,6 +544,12 @@
             "desc": "TinyPNG 是一个在线图像压缩工具，专门用于智能压缩 WebP、PNG 和 JPEG 格式的图片。"
           },
           {
+            "title": "iLoveIMG",
+            "url": "https://www.iloveimg.com/zh-cn",
+            "iconUrl": "https://www.iloveimg.com/img/favicons-img/favicon-16x16.png",
+            "desc": "iLoveIMG是一款在线处理图片文件的网站。我们的服务完全免费，而且使用简便。网站的功能有：压缩图像文件、调整文件尺寸、裁剪文件，以及转换文件格式等！"
+          },
+          {
             "title": "在线图片优化器",
             "url": "https://imagecompressor.com/zh/",
             "iconUrl": "https://imagecompressor.com/images/imagecompressor/favicon.png",
@@ -630,6 +636,12 @@
             "url": "https://www.freecodecamp.org/chinese/learn/",
             "iconUrl": "https://www.freecodecamp.org/favicon-32x32.png?v=6cba562cbd10e31af925a976f3db73f7",
             "desc": "Learn to Code — For Free"
+          },
+          {
+            "title": "Codepip",
+            "url": "https://codepip.com/games/",
+            "iconUrl": "https://codepip.com/favicon.ico",
+            "desc": "Codepip&#039;s coding games, including Flexbox Froggy, Grid Garden, Code Crunchers, Disarray, and Querymon."
           }
         ]
       },
@@ -641,6 +653,12 @@
             "url": "https://zh.javascript.info",
             "iconUrl": "https://zh.javascript.info/img/favicon/favicon.png",
             "desc": "现代 JavaScript 教程：有关示例和任务的简单但详细的解释包括：闭包、文档和事件，以及面向对象编程等。"
+          },
+          {
+            "title": "JavaScript 30",
+            "url": "https://javascript30.com",
+            "iconUrl": "",
+            "desc": "Build 30 things with vanilla JS in 30 days with 30 tutorials"
           }
         ]
       },
