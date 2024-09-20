@@ -663,6 +663,17 @@
         ]
       },
       {
+        "title": "TypeScript 相关",
+        "subList": [
+          {
+            "title": "TypeScript 入门教程",
+            "url": "https://ts.xcatliu.com",
+            "iconUrl": "https://ts.xcatliu.com/favicon.png",
+            "desc": "从 JavaScript 程序员的角度总结思考，循序渐进的理解 TypeScript"
+          }
+        ]
+      },
+      {
         "title": "CSS 相关",
         "subList": [
           {
