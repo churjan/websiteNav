@@ -137,6 +137,12 @@
             "url": "https://www.emu666.com",
             "iconUrl": "https://www.emu666.com/logo512.png",
             "desc": "在浏览器中免费玩模拟器游戏！包括 GBA, SNES, NDS, GBC, GB, N64, NES, PSP, PS2, XBOX, WII 和更多游戏！"
+          },
+          {
+            "title": "HSReplay.net",
+            "url": "https://hsreplay.net",
+            "iconUrl": "https://static.hsreplay.net/static/images/favicon.8a3bedb7d27d.ico",
+            "desc": "在浏览器上直接观看分享您的炉石传说回放。探索卡组和新卡的进阶统计信息，每周上万的对局的聚会营地。"
           }
         ]
       }
