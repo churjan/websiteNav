@@ -676,6 +676,12 @@
             "url": "https://ts.xcatliu.com",
             "iconUrl": "https://ts.xcatliu.com/favicon.png",
             "desc": "从 JavaScript 程序员的角度总结思考，循序渐进的理解 TypeScript"
+          },
+          {
+            "title": "TypeRoom - 类型小屋",
+            "url": "https://typeroom.cn",
+            "iconUrl": "https://typeroom.cn/favicon.ico",
+            "desc": "类型小屋 TypeRoom 是一个能让开发者简单方便进行 TypeScript 类型体操的平台，题库依托于 Type Challenges，所有题目及其题解都被润色为更符合中国开发者的阅读习惯"
           }
         ]
       },
@@ -822,6 +828,55 @@
             "url": "https://shop.pockyt.io",
             "iconUrl": "https://pockyt.io/app/uploads/2022/01/cropped-pockyt_logo_social_dark_icon-32x32.png",
             "desc": "苹果商店,亚马逊礼品卡,安全正规,超值折扣,快速发货"
+          }
+        ]
+      }
+    ]
+  },
+  "taizhou": {
+    "website": [
+      {
+        "title": "新闻门户网站",
+        "subList": [
+          {
+            "title": "中国台州网",
+            "url": "http://www.taizhou.com.cn",
+            "iconUrl": "http://www.taizhou.com.cn/templateRes/202108/17/30427/30427/images/icon.png",
+            "desc": "中国台州网是浙江省重要的新闻门户网站之一，也是台州四大新闻媒体之一。综合性、多媒体的台州第一门户网站，为您及时提供各类新闻和资讯信息"
+          }
+        ]
+      },
+      {
+        "title": "社区论坛",
+        "subList": [
+          {
+            "title": "台州19楼",
+            "url": "https://taizhou.19lou.com",
+            "iconUrl": "https://taizhou.19lou.com/favicon.ico",
+            "desc": "台州 19 楼是台州热门的同城女性婚恋家社区平台，在这里，你可以轻松搞定相亲、结婚、装 修、育儿这几桩人生大事，还可以获得租房、求职、美食、旅游、房产、教育、二手交易等本地生活服务 信息"
+          }
+        ]
+      },
+      {
+        "title": "政府网站",
+        "subList": [
+          {
+            "title": "台州市统计局",
+            "url": "http://tjj.zjtz.gov.cn",
+            "iconUrl": "",
+            "desc": ""
+          },
+          {
+            "title": "台州市椒江区人民政府网站",
+            "url": "https://www.jj.gov.cn",
+            "iconUrl": "",
+            "desc": ""
+          },
+          {
+            "title": "台州市自然资源和规划局",
+            "url": "https://zrzy.zjtz.gov.cn",
+            "iconUrl": "",
+            "desc": ""
           }
         ]
       }
