@@ -11,6 +11,10 @@
     {
       "title": "社区",
       "path": "community"
+    },
+    {
+      "title": "游戏",
+      "path": "game"
     }
   ],
   "frontend": [

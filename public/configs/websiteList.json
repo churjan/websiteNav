@@ -137,12 +137,6 @@
             "url": "https://www.emu666.com",
             "iconUrl": "https://www.emu666.com/logo512.png",
             "desc": "在浏览器中免费玩模拟器游戏！包括 GBA, SNES, NDS, GBC, GB, N64, NES, PSP, PS2, XBOX, WII 和更多游戏！"
-          },
-          {
-            "title": "HSReplay.net",
-            "url": "https://hsreplay.net",
-            "iconUrl": "https://static.hsreplay.net/static/images/favicon.8a3bedb7d27d.ico",
-            "desc": "在浏览器上直接观看分享您的炉石传说回放。探索卡组和新卡的进阶统计信息，每周上万的对局的聚会营地。"
           }
         ]
       }
@@ -217,15 +211,28 @@
             "desc": "wikiHow是一项协作项目，目标是建立世界最大的最高质量的指导手册。无论您想做什么，我们的多语种指导手册都可以为您提供免费的逐步指导。"
           }
         ]
-      },
+      }
+    ],
+    "game": [
       {
-        "title": "本地社区",
+        "title": "游戏评分",
         "subList": [
           {
-            "title": "台州19楼",
-            "url": "https://taizhou.19lou.com",
-            "iconUrl": "https://taizhou.19lou.com/favicon.ico",
-            "desc": "台州 19 楼是台州热门的同城女性婚恋家社区平台，在这里，你可以轻松搞定相亲、结婚、装 修、育儿这几桩人生大事，还可以获得租房、求职、美食、旅游、房产、教育、二手交易等本地生活服务 信息"
+            "title": "metacritic",
+            "url": "https://www.metacritic.com",
+            "iconUrl": "",
+            "desc": "Not every critic is the same. Metacritic offers aggregated game reviews from the top critics, and our own METASCORE pinpoints at a glance how each game was reviewed."
+          }
+        ]
+      },
+      {
+        "title": "游戏辅助工具",
+        "subList": [
+          {
+            "title": "HSReplay.net",
+            "url": "https://hsreplay.net",
+            "iconUrl": "https://static.hsreplay.net/static/images/favicon.8a3bedb7d27d.ico",
+            "desc": "在浏览器上直接观看分享您的炉石传说回放。探索卡组和新卡的进阶统计信息，每周上万的对局的聚会营地。"
           }
         ]
       }
