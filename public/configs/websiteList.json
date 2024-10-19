@@ -150,6 +150,12 @@
             "url": "https://tool.browser.qq.com",
             "iconUrl": "https://tool.browser.qq.com/favicon.ico",
             "desc": "帮小忙，腾讯QQ浏览器在线工具箱平台，提供证件照生成，表情包制作，PDF转换，文字提取，二维码生成，数据校验、照片修复、插件安装等在线服务，让你无忧生活。帮小忙-全部分类工具"
+          },
+          {
+            "title": "第一在线工具",
+            "url": "https://d1tools.com",
+            "iconUrl": "https://d1tools.com/favicon.ico",
+            "desc": "第一在线工具是一个免费的在线工具网站，我们将持续开发各种实用的在线工具，以及分享优质软件、优秀网站等内容。目前已上线文本差异对比、中文简繁体转换、脑筋急转弯等工具，以及优质软件分享、优秀网站分享等内容。"
           }
         ]
       },
@@ -215,7 +221,7 @@
     ],
     "game": [
       {
-        "title": "游戏评分",
+        "title": "游戏评测",
         "subList": [
           {
             "title": "metacritic",
@@ -533,6 +539,12 @@
             "url": "https://regexper.com",
             "iconUrl": "https://regexper.com/favicon.ico",
             "desc": "Regular expression visualizer using railroad diagrams"
+          },
+          {
+            "title": "Favicon.im",
+            "url": "https://favicon.im",
+            "iconUrl": "https://favicon.im/favicon.ico",
+            "desc": "Instantly fetch and display favicons from any website. Simple, fast, and free API for developers."
           }
         ]
       },
@@ -828,13 +840,24 @@
   "external-network": {
     "tools": [
       {
+        "title": "梯子",
+        "subList": [
+          {
+            "title": "CordCloud",
+            "url": "https://www.cordc.net/user",
+            "iconUrl": "https://pockyt.io/app/uploads/2022/01/cropped-pockyt_logo_social_dark_icon-32x32.png",
+            "desc": "苹果商店,亚马逊礼品卡,安全正规,超值折扣,快速发货"
+          }
+        ]
+      },
+      {
         "title": "礼品卡",
         "subList": [
           {
             "title": "Pockyt Shop",
             "url": "https://shop.pockyt.io",
-            "iconUrl": "https://pockyt.io/app/uploads/2022/01/cropped-pockyt_logo_social_dark_icon-32x32.png",
-            "desc": "苹果商店,亚马逊礼品卡,安全正规,超值折扣,快速发货"
+            "iconUrl": "",
+            "desc": "CordCloud是一款提供全平台支持,自由化定制,便捷式配置的网络加速服务,可满足您的游戏娱乐,上网或办公需求. CordCloud拥有多个大型云服务商的直连带宽接入,单节点最高可达1Gbps,流量 …"
           }
         ]
       }
