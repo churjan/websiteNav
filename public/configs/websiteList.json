@@ -840,13 +840,24 @@
   "external-network": {
     "tools": [
       {
+        "title": "综合",
+        "subList": [
+          {
+            "title": "Real US & Canadian Address Generator",
+            "url": "https://us.chatgpt.org.uk",
+            "iconUrl": "",
+            "desc": "Real US Address Generator"
+          }
+        ]
+      },
+      {
         "title": "梯子",
         "subList": [
           {
             "title": "CordCloud",
             "url": "https://www.cordc.net/user",
-            "iconUrl": "https://pockyt.io/app/uploads/2022/01/cropped-pockyt_logo_social_dark_icon-32x32.png",
-            "desc": "苹果商店,亚马逊礼品卡,安全正规,超值折扣,快速发货"
+            "iconUrl": "",
+            "desc": "CordCloud是一款提供全平台支持,自由化定制,便捷式配置的网络加速服务,可满足您的游戏娱乐,上网或办公需求. CordCloud拥有多个大型云服务商的直连带宽接入,单节点最高可达1Gbps,流量 …"
           }
         ]
       },
@@ -857,7 +868,7 @@
             "title": "Pockyt Shop",
             "url": "https://shop.pockyt.io",
             "iconUrl": "",
-            "desc": "CordCloud是一款提供全平台支持,自由化定制,便捷式配置的网络加速服务,可满足您的游戏娱乐,上网或办公需求. CordCloud拥有多个大型云服务商的直连带宽接入,单节点最高可达1Gbps,流量 …"
+            "desc": "苹果商店,亚马逊礼品卡,安全正规,超值折扣,快速发货"
           }
         ]
       }
