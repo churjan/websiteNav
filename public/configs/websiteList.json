@@ -781,6 +781,12 @@
             "url": "https://antfu.me/",
             "iconUrl": "https://antfu.me/favicon.svg",
             "desc": "Anthony Fu's Portfolio"
+          },
+          {
+            "title": "太空编程",
+            "url": "https://spacexcode.com",
+            "iconUrl": "https://spacexcode.com/img/favicon.ico",
+            "desc": "分享硬核且有趣的前端编程知识，带你快速进入计算机Web的程序世界。"
           }
         ]
       },
@@ -798,6 +804,12 @@
             "url": "https://css-tricks.com",
             "iconUrl": "https://css-tricks.com/favicon.ico",
             "desc": "Daily articles about CSS, HTML, JavaScript, and all things related to web design and development."
+          },
+          {
+            "title": "月球背面・Moonvy",
+            "url": "https://moonvy.com/blog/",
+            "iconUrl": "https://moonvy.com/blog/icon/logo-256.png",
+            "desc": "月维的创造者们对「设计」和「开发」的思考与讨论"
           }
         ]
       },
