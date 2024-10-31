@@ -420,7 +420,7 @@
         "subList": [
           {
             "title": "TypeScript中文文档",
-            "url": "https://shamansir.github.io/JavaScript-Garden/zh/",
+            "url": "http://ts.yayujs.com",
             "iconUrl": "http://ts.yayujs.com/favicon-32x32.png",
             "desc": "TypeScript 系列文章由官方文档翻译、重难点解析、实践技巧与总结三个部分组成，预计 40 篇左右。目前已完成了官方文档 Handbooks 的翻译，正在准备重难点解读部分。"
           }
