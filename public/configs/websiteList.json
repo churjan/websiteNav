@@ -242,6 +242,19 @@
           }
         ]
       }
+    ],
+    "website": [
+      {
+        "title": "默认",
+        "subList": [
+          {
+            "title": "天下老照片网",
+            "url": "http://www.laozhaopian5.com",
+            "iconUrl": "http://www.laozhaopian5.com/favicon.ico",
+            "desc": "天下老照片网致力于传播分享国内外历史老照片、收集整理了大量清朝老照片、民国老照片、重庆上海老照片、抗战老照片及清朝民国老视频，是专业的老照片图库。"
+          }
+        ]
+      }
     ]
   },
   "frontend": {
@@ -399,6 +412,17 @@
             "url": "https://shamansir.github.io/JavaScript-Garden/zh/",
             "iconUrl": "https://shamansir.github.io/JavaScript-Garden/favicon.ico?v=2",
             "desc": "JavaScript 语言最古怪用法的文档集合"
+          }
+        ]
+      },
+      {
+        "title": "TypeScript 相关",
+        "subList": [
+          {
+            "title": "TypeScript中文文档",
+            "url": "https://shamansir.github.io/JavaScript-Garden/zh/",
+            "iconUrl": "http://ts.yayujs.com/favicon-32x32.png",
+            "desc": "TypeScript 系列文章由官方文档翻译、重难点解析、实践技巧与总结三个部分组成，预计 40 篇左右。目前已完成了官方文档 Handbooks 的翻译，正在准备重难点解读部分。"
           }
         ]
       },

@@ -15,6 +15,10 @@
     {
       "title": "游戏",
       "path": "game"
+    },
+    {
+      "title": "网站",
+      "path": "website"
     }
   ],
   "frontend": [
