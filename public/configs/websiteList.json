@@ -206,19 +206,6 @@
         ]
       }
     ],
-    "community": [
-      {
-        "title": "生活指南",
-        "subList": [
-          {
-            "title": "wikiHow",
-            "url": "https://zh.wikihow.com",
-            "iconUrl": "https://zh.wikihow.com/favicon_round.ico",
-            "desc": "wikiHow是一项协作项目，目标是建立世界最大的最高质量的指导手册。无论您想做什么，我们的多语种指导手册都可以为您提供免费的逐步指导。"
-          }
-        ]
-      }
-    ],
     "game": [
       {
         "title": "游戏评测",
@@ -252,6 +239,28 @@
             "url": "http://www.laozhaopian5.com",
             "iconUrl": "http://www.laozhaopian5.com/favicon.ico",
             "desc": "天下老照片网致力于传播分享国内外历史老照片、收集整理了大量清朝老照片、民国老照片、重庆上海老照片、抗战老照片及清朝民国老视频，是专业的老照片图库。"
+          }
+        ]
+      },
+      {
+        "title": "生活指南",
+        "subList": [
+          {
+            "title": "wikiHow",
+            "url": "https://zh.wikihow.com",
+            "iconUrl": "https://zh.wikihow.com/favicon_round.ico",
+            "desc": "wikiHow是一项协作项目，目标是建立世界最大的最高质量的指导手册。无论您想做什么，我们的多语种指导手册都可以为您提供免费的逐步指导。"
+          }
+        ]
+      },
+      {
+        "title": "社区",
+        "subList": [
+          {
+            "title": "虎扑",
+            "url": "https://www.hupu.com",
+            "iconUrl": "https://w1.hoopchina.com.cn/images/pc/old/favicon.ico",
+            "desc": "虎扑是以体育赛事和男性兴趣生活为主的社区网站。专注于NBA赛程、NBA录像、NBA直播、NBA资讯、球员交易、足球、英超、电竞、LPL等全部篮球足球电竞赛事，并提供虎扑步行街社区服务。"
           }
         ]
       }
@@ -342,6 +351,17 @@
             "url": "https://devv.ai/zh",
             "iconUrl": "https://ts1.cn.mm.bing.net/th?id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2",
             "desc": "Devv AI 是一个专为开发者设计的 AI 驱动搜索引擎，提供快速准确的编程相关查询结果。"
+          }
+        ]
+      },
+      {
+        "title": "图片",
+        "subList": [
+          {
+            "title": "Unfaked",
+            "url": "https://www.gounfaked.com",
+            "iconUrl": "https://www.gounfaked.com/favicon.ico",
+            "desc": "Unfaked - AI-Generated Images That Look Almost Real"
           }
         ]
       },
