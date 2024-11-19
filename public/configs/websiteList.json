@@ -78,7 +78,7 @@
         ]
       },
       {
-        "title": "影视下载",
+        "title": "影视",
         "subList": [
           {
             "title": "电影天堂",
@@ -97,6 +97,12 @@
             "url": "https://85128.net",
             "iconUrl": "",
             "desc": "电影天堂,1080P,电影下载,电视剧下载,高清电影,迅雷下载,720P,2K,4K高清电影首发"
+          },
+          {
+            "title": "厂长资源",
+            "url": "https://www.czzyvideo.com",
+            "iconUrl": "https://gimg3.baidu.com/gimg/app=2028&src=img.czzy66.com/2024/09/fd2fa7a94afb88.jpg",
+            "desc": "厂长资源(CZZY)为您提供海量1080p经典影视免费观看！"
           }
         ]
       },
