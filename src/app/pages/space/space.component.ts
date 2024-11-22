@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 
 import { SharedModule } from '../../shared/shared.module';
 import { CommonService } from '../../shared/services/common.service';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-space',
@@ -12,7 +13,15 @@ import { CommonService } from '../../shared/services/common.service';
   styleUrl: './space.component.less',
 })
 export class SpaceComponent {
-  constructor(private router: Router, public cs: CommonService) {}
+  constructor(
+    private router: Router,
+    public cs: CommonService,
+    private http: HttpClient
+  ) {
+    this.http.get(`http://localhost:1337/api/spaces`).subscribe((data) => {
+      console.log(data);
+    });
+  }
 
   onJump(item) {
     const category = item.path;
