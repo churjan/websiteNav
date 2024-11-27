@@ -405,6 +405,12 @@
             "desc": "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps."
           },
           {
+            "title": "Devhints",
+            "url": "https://devhints.io",
+            "iconUrl": "https://devhints.io/assets/favicon.png",
+            "desc": "A ridiculous collection of web development cheatsheets"
+          },
+          {
             "title": "JavaScript框架语法特性对比",
             "url": "https://component-party.lainbo.com",
             "iconUrl": "https://component-party.lainbo.com/favicon.png",
