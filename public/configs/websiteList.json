@@ -210,6 +210,17 @@
             "desc": "思维导图，流程图，思维导图模板，在线思维导图，在线流程图"
           }
         ]
+      },
+      {
+        "title": "网站工具",
+        "subList": [
+          {
+            "title": "ITDOG",
+            "url": "https://www.itdog.cn",
+            "iconUrl": "https://www.itdog.cn/favicon.ico",
+            "desc": "本站为IT运维人员提供实用的工具，多地ping测试、多地tcping测试、网站测速、HTTP测速、API测速、路由追踪、在线MTR 、DNS查询等。"
+          }
+        ]
       }
     ],
     "game": [
