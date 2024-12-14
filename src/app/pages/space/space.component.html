@@ -1,7 +1,20 @@
-<div class="space-view">
-  @for(item of cs.spaceList; track $index){
-  <div class="space-item" (click)="onJump(item)">
+<div
+  class="space-view"
+  cdkDropList
+  cdkDropListOrientation="horizontal"
+  (cdkDropListDropped)="drop($event)"
+>
+  @for(item of spaceList; track $index){
+  <div
+    class="space-item"
+    (click)="onJump(item)"
+    cdkDrag
+    [cdkDragDisabled]="!isEdit"
+  >
     {{ item.title }}
   </div>
   }
+  <div class="space-item space-separator">
+    <span nz-icon nzType="plus" nzTheme="outline"></span>
+  </div>
 </div>
