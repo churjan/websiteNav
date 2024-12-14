@@ -225,6 +225,17 @@
     ],
     "game": [
       {
+        "title": "游戏百科",
+        "subList": [
+          {
+            "title": "Fandom",
+            "url": "https://www.fandom.com",
+            "iconUrl": "https://www.fandom.com/f2/assets/favicons/favicon-16x16.png?v=a875336a4bfd94faa95aa13d251ae80c6573454b",
+            "desc": "The entertainment site where fans come first. Your daily source for all things TV, movies, and games, including Star Wars, Fallout, Marvel, DC and more."
+          }
+        ]
+      },
+      {
         "title": "游戏评测",
         "subList": [
           {
