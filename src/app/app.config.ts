@@ -23,8 +23,11 @@ import {
 
 registerLocaleData(zh);
 
+import { iconsProvider } from './icons-provider';
+
 export const appConfig: ApplicationConfig = {
   providers: [
+    iconsProvider,
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes),
     provideNzI18n(zh_CN),
