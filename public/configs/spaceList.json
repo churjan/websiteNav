@@ -1,6 +1,0 @@
-[
-  { "title": "通用", "path": "common" },
-  { "title": "前端", "path": "frontend" },
-  { "title": "外网", "path": "external-network" },
-  { "title": "台州", "path": "taizhou" }
-]
