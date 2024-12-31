@@ -11,7 +11,7 @@ export const routes: Routes = [
     canActivate: [DataLoadGuard],
   },
   {
-    path: 'nav/:category/:type',
+    path: 'nav',
     component: NavComponent,
     canActivate: [DataLoadGuard],
   },

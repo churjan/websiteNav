@@ -14,7 +14,7 @@ import { NzMessageService } from 'ng-zorro-antd/message';
 export class AuthInterceptor implements HttpInterceptor {
   intercept(request: HttpRequest<any>, next: HttpHandler) {
     const authToken =
-      '100199ce602cf7a04c9482bd070b01387ebb9e3d1ecd2d66a3bb9e28174af9a3a5dc457f057572dd058b0ddc5495ad25a7b7e249a4f0102d6d9cfea79e9588460587b58dfcac07585728be5f7aeb768c8e3a2654cb8fbcd205ef98e092570cf82c601efd18fb2a89c4794f7ac5d79b86805592453623a0654ba1abf495bbf4e7';
+      'bc30dbba70be2936d5e4f181e5083efd0d29c887a4746a06545078ab144365356f45353829ca95fab63eb0dbaabb771a53a366f7378c90456226d0b2721a1e9c2552971d1c40df80866a2311e275bd6ed1ff1aeddcaf4a69e71629d754d4eae96b5ea6335bf638714fd76bd6439e9609c2a7dca2ff48947afb53b35b068a31f8';
     const authRequest = request.clone({
       headers: request.headers.set('Authorization', `Bearer ${authToken}`),
     });

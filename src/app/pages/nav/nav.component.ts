@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 
 import { SharedModule } from '../../shared/shared.module';
 import { CommonService } from '../../shared/services/common.service';
+import qs from 'qs';
 
 @Component({
   selector: 'app-nav',
@@ -12,22 +13,39 @@ import { CommonService } from '../../shared/services/common.service';
   styleUrl: './nav.component.less',
 })
 export class NavComponent implements OnInit {
-  navList = [];
-  websiteList = [];
+  spaceId = '';
+  categoryId = '';
 
-  constructor(private route: ActivatedRoute, public cs: CommonService) {}
+  get navList() {
+    return (
+      this.cs.spaceList.find((item) => item.documentId === this.spaceId)
+        ?.primary_categories ?? []
+    );
+  }
+
+  get websiteList() {
+    return (
+      this.navList.find((item) => item.documentId === this.categoryId)?.list ??
+      []
+    );
+  }
+
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router,
+    public cs: CommonService
+  ) {}
 
   ngOnInit() {
-    const category = this.route.snapshot.paramMap.get('category');
-    const navList = this.cs.navList[category];
-    navList.forEach((item) => {
-      item.urlPath = `/nav/${category}/${item.path}`;
+    this.route.queryParamMap.subscribe((paramMap: ParamMap) => {
+      this.spaceId = paramMap.get('spaceId');
+      this.categoryId = paramMap.get('categoryId');
     });
-    this.navList = navList;
+  }
 
-    this.route.params.subscribe((params) => {
-      this.websiteList =
-        this.cs.websiteList[params['category']][params['type']];
+  onNavItemClick(categoryId) {
+    this.router.navigate(['/nav'], {
+      queryParams: { spaceId: this.spaceId, categoryId },
     });
   }
 }

@@ -26,12 +26,7 @@ export class DataLoadGuard implements CanActivate {
     if (this.cs.hasFetched) {
       return Promise.resolve(true);
     } else {
-      return new Promise((resolve, reject) => {
-        this.cs.fetchAllData().subscribe({
-          next: () => resolve(true),
-          error: () => reject(false),
-        });
-      });
+      return this.cs.fetchSpaceList();
     }
   }
 }

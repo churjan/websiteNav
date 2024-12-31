@@ -3,8 +3,8 @@
     <div class="nav-view">
       <a
         class="nav-item"
-        [routerLink]="item.urlPath"
-        routerLinkActive="active"
+        (click)="onNavItemClick(item.documentId)"
+        [class.active]="item.documentId === this.categoryId"
         *ngFor="let item of navList"
       >
         {{ item.title }}
